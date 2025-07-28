@@ -1,0 +1,10 @@
+{
+	"lexicon": 1,
+	"id": "genres.platform",
+	"defs": {
+		"main": {
+			"type": "token",
+			"description": "Platform"
+		}
+	}
+}

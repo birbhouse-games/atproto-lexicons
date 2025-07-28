@@ -1,0 +1,10 @@
+{
+	"lexicon": 1,
+	"id": "genres.simulator",
+	"defs": {
+		"main": {
+			"type": "token",
+			"description": "Simulator"
+		}
+	}
+}

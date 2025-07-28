@@ -1,0 +1,10 @@
+{
+	"lexicon": 1,
+	"id": "playerPerspective.thirdPerson",
+	"defs": {
+		"main": {
+			"type": "token",
+			"description": "Third person"
+		}
+	}
+}

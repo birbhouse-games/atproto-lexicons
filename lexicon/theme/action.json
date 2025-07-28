@@ -1,0 +1,10 @@
+{
+	"lexicon": 1,
+	"id": "theme.action",
+	"defs": {
+		"main": {
+			"type": "token",
+			"description": "Action"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"lexicon": 1,
+	"id": "theme.mystery",
+	"defs": {
+		"main": {
+			"type": "token",
+			"description": "Mystery"
+		}
+	}
+}

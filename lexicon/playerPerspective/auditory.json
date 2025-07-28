@@ -1,0 +1,10 @@
+{
+	"lexicon": 1,
+	"id": "playerPerspective.auditory",
+	"defs": {
+		"main": {
+			"type": "token",
+			"description": "Auditory"
+		}
+	}
+}

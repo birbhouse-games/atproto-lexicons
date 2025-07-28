@@ -1,0 +1,10 @@
+{
+	"lexicon": 1,
+	"id": "type.expandedGame",
+	"defs": {
+		"main": {
+			"type": "token",
+			"description": "Expanded Game"
+		}
+	}
+}

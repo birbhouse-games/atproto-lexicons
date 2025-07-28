@@ -1,0 +1,10 @@
+{
+	"lexicon": 1,
+	"id": "genres.rpg",
+	"defs": {
+		"main": {
+			"type": "token",
+			"description": "Role-playing (RPG)"
+		}
+	}
+}

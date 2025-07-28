@@ -1,0 +1,172 @@
+{
+	"id": "",
+	"defs": {
+		"main": {
+			"type": "record",
+			"description": "",
+			"key": "literal:self",
+			"required": [
+				"name",
+				"summary",
+				"createdAt"
+			],
+			"record": {
+				"type": "object",
+				"properties": {
+					"did": {
+						"type": "string",
+						"format": "did"
+					},
+					"name": {
+						"type": "string"
+					},
+					"gameModes": {
+						"type": "array",
+						"minLength": 1,
+						"items": {
+							"type": "string",
+							"knownValues": [
+								"gameModes.battleRoyale",
+								"gameModes.cooperative",
+								"gameModes.mmo",
+								"gameModes.multiplayer",
+								"gameModes.singlePlayer",
+								"gameModes.splitScreen"
+							]
+						}
+					},
+					"genres": {
+						"type": "array",
+						"minLength": 1,
+						"items": {
+							"type": "string",
+							"knownValues": [
+								"genre.fighting",
+								"genre.music",
+								"genre.platform",
+								"genre.pointAndClick",
+								"genre.puzzle",
+								"genre.racing",
+								"genre.rpg",
+								"genre.rts",
+								"genre.shooter",
+								"genre.simulator"
+							]
+						}
+					},
+					"playerPerspectives": {
+						"type": "array",
+						"minLength": 1,
+						"items": {
+							"type": "string",
+							"knownValues": [
+								"playerPerspective.auditory",
+								"playerPerspective.firstPerson",
+								"playerPerspective.isometric",
+								"playerPerspective.sideView",
+								"playerPerspective.text",
+								"playerPerspective.thirdPerson",
+								"playerPerspective.vr"
+							]
+						}
+					},
+					"summary": {
+						"type": "string"
+					},
+					"themes": {
+						"type": "array",
+						"minLength": 1,
+						"items": {
+							"type": "string",
+							"knownValues": [
+								"gameModes.4x",
+								"gameModes.action",
+								"gameModes.business",
+								"gameModes.comedy",
+								"gameModes.drama",
+								"gameModes.educational",
+								"gameModes.erotic",
+								"gameModes.fantasy",
+								"gameModes.historical",
+								"gameModes.horror",
+								"gameModes.kids",
+								"gameModes.mystery",
+								"gameModes.nonfiction",
+								"gameModes.openWorld",
+								"gameModes.party",
+								"gameModes.romance",
+								"gameModes.sandbox",
+								"gameModes.scifi",
+								"gameModes.stealth",
+								"gameModes.survival",
+								"gameModes.thriller",
+								"gameModes.warfare"
+							]
+						}
+					},
+					"createdAt": {
+						"type": "string",
+						"format": "datetime"
+					},
+					"parent": {
+						"type": "string",
+						"format": "at-uri"
+					},
+					"involvedOrganizations": {
+						"type": "array",
+						"minLength": 1,
+						"items": {
+							"type": "string",
+							"format": "at-uri"
+						}
+					},
+					"releaseDates": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"releasedAt": {
+									"type": "string",
+									"format": "datetime"
+								},
+								"platform": {
+									"type": "string"
+								},
+								"region": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"type": {
+						"type": "array",
+						"minLength": 1,
+						"items": {
+							"type": "string",
+							"knownValues": [
+								"gameModes.addon",
+								"gameModes.bundle",
+								"gameModes.dlc",
+								"gameModes.episode",
+								"gameModes.expandedGame",
+								"gameModes.expansion",
+								"gameModes.fork",
+								"gameModes.mainGame",
+								"gameModes.mod",
+								"gameModes.port",
+								"gameModes.remake",
+								"gameModes.remaster",
+								"gameModes.season",
+								"gameModes.standaloneExpansion",
+								"gameModes.update"
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}

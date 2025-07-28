@@ -1,0 +1,10 @@
+{
+	"lexicon": 1,
+	"id": "type.mod",
+	"defs": {
+		"main": {
+			"type": "token",
+			"description": "Mod"
+		}
+	}
+}

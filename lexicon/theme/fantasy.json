@@ -1,0 +1,10 @@
+{
+	"lexicon": 1,
+	"id": "theme.fantasy",
+	"defs": {
+		"main": {
+			"type": "token",
+			"description": "Fantasy"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"lexicon": 1,
+	"id": "type.remake",
+	"defs": {
+		"main": {
+			"type": "token",
+			"description": "Remake"
+		}
+	}
+}

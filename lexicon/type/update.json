@@ -1,0 +1,10 @@
+{
+	"lexicon": 1,
+	"id": "type.update",
+	"defs": {
+		"main": {
+			"type": "token",
+			"description": "Update"
+		}
+	}
+}

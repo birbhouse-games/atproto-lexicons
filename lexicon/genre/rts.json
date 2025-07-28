@@ -1,0 +1,10 @@
+{
+	"lexicon": 1,
+	"id": "genres.rts",
+	"defs": {
+		"main": {
+			"type": "token",
+			"description": "Real Time Strategy (RTS)"
+		}
+	}
+}

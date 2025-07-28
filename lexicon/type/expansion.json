@@ -1,0 +1,10 @@
+{
+	"lexicon": 1,
+	"id": "type.expansion",
+	"defs": {
+		"main": {
+			"type": "token",
+			"description": "Expansion"
+		}
+	}
+}

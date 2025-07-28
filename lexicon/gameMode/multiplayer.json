@@ -1,0 +1,10 @@
+{
+  "lexicon": 1,
+  "id": "gameModes.multiplayer",
+  "defs": {
+		"main": {
+			"type": "token",
+			"description": "Multiplayer"
+		}
+	}
+}
