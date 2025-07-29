@@ -1,0 +1,82 @@
+{
+	"id": "house.birb.game.listing",
+	"defs": {
+		"main": {
+			"type": "record",
+			"description": "",
+			"key": "literal:self",
+			"required": [
+				"name",
+				"summary",
+				"createdAt"
+			],
+			"record": {
+				"type": "object",
+				"properties": {
+					"did": {
+						"type": "string",
+						"format": "did"
+					},
+					"name": {
+						"type": "string"
+					},
+					"modes": {
+						"type": "house.birb.game.defs#mode"
+					},
+					"genres": {
+						"type": "house.birb.game.defs#genre"
+					},
+					"playerPerspectives": {
+						"type": "house.birb.game.defs#playerPerspectives"
+					},
+					"summary": {
+						"type": "string"
+					},
+					"themes": {
+						"type": "house.birb.game.defs#themes"
+					},
+					"createdAt": {
+						"type": "string",
+						"format": "datetime"
+					},
+					"parent": {
+						"type": "string",
+						"format": "at-uri"
+					},
+					"involvedOrganizations": {
+						"type": "array",
+						"minLength": 1,
+						"items": {
+							"type": "string",
+							"format": "at-uri"
+						}
+					},
+					"releaseDates": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"releasedAt": {
+									"type": "string",
+									"format": "datetime"
+								},
+								"platform": {
+									"type": "string"
+								},
+								"region": {
+									"type": "string"
+								},
+								"status": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"type": {
+						"type": "house.birb.game.defs#type"
+					}
+				}
+			}
+		}
+	}
+}

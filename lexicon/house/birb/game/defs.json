@@ -1,0 +1,111 @@
+{
+	"lexicon": 1,
+	"id": "house.birb.game.defs",
+	"defs": {
+		"genre": {
+			"type": "array",
+			"minLength": 1,
+			"items": {
+				"type": "string",
+				"knownValues": [
+					"house.birb.game.genre#fighting",
+					"house.birb.game.genre#music",
+					"house.birb.game.genre#platform",
+					"house.birb.game.genre#pointAndClick",
+					"house.birb.game.genre#puzzle",
+					"house.birb.game.genre#racing",
+					"house.birb.game.genre#rpg",
+					"house.birb.game.genre#rts",
+					"house.birb.game.genre#shooter",
+					"house.birb.game.genre#simulator"
+				]
+			}
+		},
+		"mode": {
+			"type": "array",
+			"minLength": 1,
+			"items": {
+				"type": "string",
+				"knownValues": [
+					"house.birb.game.mode#battleRoyale",
+					"house.birb.game.mode#cooperative",
+					"house.birb.game.mode#mmo",
+					"house.birb.game.mode#multiplayer",
+					"house.birb.game.mode#singlePlayer",
+					"house.birb.game.mode#splitScreen"
+				]
+			}
+		},
+		"playerPerspective": {
+			"type": "array",
+			"minLength": 1,
+			"items": {
+				"type": "string",
+				"knownValues": [
+					"house.birb.game.playerPerspective#auditory",
+					"house.birb.game.playerPerspective#firstPerson",
+					"house.birb.game.playerPerspective#isometric",
+					"house.birb.game.playerPerspective#sideView",
+					"house.birb.game.playerPerspective#text",
+					"house.birb.game.playerPerspective#thirdPerson",
+					"house.birb.game.playerPerspective#vr"
+				]
+			}
+		},
+		"theme": {
+			"type": "array",
+			"minLength": 1,
+			"items": {
+				"type": "string",
+				"knownValues": [
+					"house.birb.game.theme#4x",
+					"house.birb.game.theme#action",
+					"house.birb.game.theme#business",
+					"house.birb.game.theme#comedy",
+					"house.birb.game.theme#drama",
+					"house.birb.game.theme#educational",
+					"house.birb.game.theme#erotic",
+					"house.birb.game.theme#fantasy",
+					"house.birb.game.theme#historical",
+					"house.birb.game.theme#horror",
+					"house.birb.game.theme#kids",
+					"house.birb.game.theme#mystery",
+					"house.birb.game.theme#nonfiction",
+					"house.birb.game.theme#openWorld",
+					"house.birb.game.theme#party",
+					"house.birb.game.theme#romance",
+					"house.birb.game.theme#sandbox",
+					"house.birb.game.theme#scifi",
+					"house.birb.game.theme#stealth",
+					"house.birb.game.theme#survival",
+					"house.birb.game.theme#thriller",
+					"house.birb.game.theme#warfare"
+				]
+			}
+		},
+		"type": {
+			"type": "array",
+			"minLength": 1,
+			"items": {
+				"type": "string",
+				"knownValues": [
+					"house.birb.game.type#addon",
+					"house.birb.game.type#bundle",
+					"house.birb.game.type#dlc",
+					"house.birb.game.type#episode",
+					"house.birb.game.type#expandedGame",
+					"house.birb.game.type#expansion",
+					"house.birb.game.type#fork",
+					"house.birb.game.type#mainGame",
+					"house.birb.game.type#mod",
+					"house.birb.game.type#port",
+					"house.birb.game.type#remake",
+					"house.birb.game.type#remaster",
+					"house.birb.game.type#season",
+					"house.birb.game.type#standaloneExpansion",
+					"house.birb.game.type#update"
+				]
+			}
+		}
+	}
+}

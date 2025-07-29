@@ -1,0 +1,34 @@
+{
+	"lexicon": 1,
+	"id": "house.birb.game.playerPerspective",
+	"defs": {
+		"auditory": {
+			"type": "token",
+			"description": "Auditory"
+		},
+		"firstPerson": {
+			"type": "token",
+			"description": "First Person"
+		},
+		"isometric": {
+			"type": "token",
+			"description": "Isometric"
+		},
+		"sideView": {
+			"type": "token",
+			"description": "Side View"
+		},
+		"text": {
+			"type": "token",
+			"description": "Text"
+		},
+		"thirdPerson": {
+			"type": "token",
+			"description": "Third Person"
+		},
+		"vr": {
+			"type": "token",
+			"description": "Virtual Reality (VR)"
+		}
+	}
+}

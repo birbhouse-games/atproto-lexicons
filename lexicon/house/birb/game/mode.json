@@ -1,0 +1,30 @@
+{
+	"lexicon": 1,
+	"id": "house.birb.game.mode",
+	"defs": {
+		"battleRoyale": {
+			"type": "token",
+			"description": "Battle Royale"
+		},
+		"cooperative": {
+			"type": "token",
+			"description": "Co-operative"
+		},
+		"mmo": {
+			"type": "token",
+			"description": "Massively Multiplayer Online (MMO)"
+		},
+		"multiplayer": {
+			"type": "token",
+			"description": "Multiplayer"
+		},
+		"singlePlayer": {
+			"type": "token",
+			"description": "Single Player"
+		},
+		"splitScreen": {
+			"type": "token",
+			"description": "Split Screen"
+		}
+	}
+}
