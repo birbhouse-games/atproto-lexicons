@@ -1,3 +1,3 @@
-# atproto-games
+# atproto-lexicons
 
-A lexicon for games on ATproto.
+Lexicons defined by [Birbhouse Games](https://birb.house) for use with [ATproto](https://atproto.com).
