@@ -1,6 +1,7 @@
 {
 	"lexicon": 1,
-	"id": "house.birb.game.genre",
+	"id": "games.gamesgamesgamesgames.game.genre",
+	"description": "",
 	"defs": {
 		"fighting": {
 			"type": "token",

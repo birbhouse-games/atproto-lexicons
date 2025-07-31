@@ -1,5 +1,5 @@
 {
-	"id": "house.birb.game.listing",
+	"id": "games.gamesgamesgamesgames.game.listing",
 	"defs": {
 		"main": {
 			"type": "record",
@@ -21,19 +21,19 @@
 						"type": "string"
 					},
 					"modes": {
-						"type": "house.birb.game.defs#mode"
+						"type": "games.gamesgamesgamesgames.game.defs#mode"
 					},
 					"genres": {
-						"type": "house.birb.game.defs#genre"
+						"type": "games.gamesgamesgamesgames.game.defs#genre"
 					},
 					"playerPerspectives": {
-						"type": "house.birb.game.defs#playerPerspectives"
+						"type": "games.gamesgamesgamesgames.game.defs#playerPerspectives"
 					},
 					"summary": {
 						"type": "string"
 					},
 					"themes": {
-						"type": "house.birb.game.defs#themes"
+						"type": "games.gamesgamesgamesgames.game.defs#themes"
 					},
 					"createdAt": {
 						"type": "string",
@@ -73,7 +73,7 @@
 						}
 					},
 					"type": {
-						"type": "house.birb.game.defs#type"
+						"type": "games.gamesgamesgamesgames.game.defs#type"
 					}
 				}
 			}

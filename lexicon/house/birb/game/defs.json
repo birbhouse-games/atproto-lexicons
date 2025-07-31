@@ -1,6 +1,6 @@
 {
 	"lexicon": 1,
-	"id": "house.birb.game.defs",
+	"id": "games.gamesgamesgamesgames.game.defs",
 	"defs": {
 		"genre": {
 			"type": "array",
@@ -8,16 +8,16 @@
 			"items": {
 				"type": "string",
 				"knownValues": [
-					"house.birb.game.genre#fighting",
-					"house.birb.game.genre#music",
-					"house.birb.game.genre#platform",
-					"house.birb.game.genre#pointAndClick",
-					"house.birb.game.genre#puzzle",
-					"house.birb.game.genre#racing",
-					"house.birb.game.genre#rpg",
-					"house.birb.game.genre#rts",
-					"house.birb.game.genre#shooter",
-					"house.birb.game.genre#simulator"
+					"games.gamesgamesgamesgames.game.genre#fighting",
+					"games.gamesgamesgamesgames.game.genre#music",
+					"games.gamesgamesgamesgames.game.genre#platform",
+					"games.gamesgamesgamesgames.game.genre#pointAndClick",
+					"games.gamesgamesgamesgames.game.genre#puzzle",
+					"games.gamesgamesgamesgames.game.genre#racing",
+					"games.gamesgamesgamesgames.game.genre#rpg",
+					"games.gamesgamesgamesgames.game.genre#rts",
+					"games.gamesgamesgamesgames.game.genre#shooter",
+					"games.gamesgamesgamesgames.game.genre#simulator"
 				]
 			}
 		},
@@ -27,12 +27,12 @@
 			"items": {
 				"type": "string",
 				"knownValues": [
-					"house.birb.game.mode#battleRoyale",
-					"house.birb.game.mode#cooperative",
-					"house.birb.game.mode#mmo",
-					"house.birb.game.mode#multiplayer",
-					"house.birb.game.mode#singlePlayer",
-					"house.birb.game.mode#splitScreen"
+					"games.gamesgamesgamesgames.game.mode#battleRoyale",
+					"games.gamesgamesgamesgames.game.mode#cooperative",
+					"games.gamesgamesgamesgames.game.mode#mmo",
+					"games.gamesgamesgamesgames.game.mode#multiplayer",
+					"games.gamesgamesgamesgames.game.mode#singlePlayer",
+					"games.gamesgamesgamesgames.game.mode#splitScreen"
 				]
 			}
 		},
@@ -42,13 +42,13 @@
 			"items": {
 				"type": "string",
 				"knownValues": [
-					"house.birb.game.playerPerspective#auditory",
-					"house.birb.game.playerPerspective#firstPerson",
-					"house.birb.game.playerPerspective#isometric",
-					"house.birb.game.playerPerspective#sideView",
-					"house.birb.game.playerPerspective#text",
-					"house.birb.game.playerPerspective#thirdPerson",
-					"house.birb.game.playerPerspective#vr"
+					"games.gamesgamesgamesgames.game.playerPerspective#auditory",
+					"games.gamesgamesgamesgames.game.playerPerspective#firstPerson",
+					"games.gamesgamesgamesgames.game.playerPerspective#isometric",
+					"games.gamesgamesgamesgames.game.playerPerspective#sideView",
+					"games.gamesgamesgamesgames.game.playerPerspective#text",
+					"games.gamesgamesgamesgames.game.playerPerspective#thirdPerson",
+					"games.gamesgamesgamesgames.game.playerPerspective#vr"
 				]
 			}
 		},
@@ -58,28 +58,28 @@
 			"items": {
 				"type": "string",
 				"knownValues": [
-					"house.birb.game.theme#4x",
-					"house.birb.game.theme#action",
-					"house.birb.game.theme#business",
-					"house.birb.game.theme#comedy",
-					"house.birb.game.theme#drama",
-					"house.birb.game.theme#educational",
-					"house.birb.game.theme#erotic",
-					"house.birb.game.theme#fantasy",
-					"house.birb.game.theme#historical",
-					"house.birb.game.theme#horror",
-					"house.birb.game.theme#kids",
-					"house.birb.game.theme#mystery",
-					"house.birb.game.theme#nonfiction",
-					"house.birb.game.theme#openWorld",
-					"house.birb.game.theme#party",
-					"house.birb.game.theme#romance",
-					"house.birb.game.theme#sandbox",
-					"house.birb.game.theme#scifi",
-					"house.birb.game.theme#stealth",
-					"house.birb.game.theme#survival",
-					"house.birb.game.theme#thriller",
-					"house.birb.game.theme#warfare"
+					"games.gamesgamesgamesgames.game.theme#4x",
+					"games.gamesgamesgamesgames.game.theme#action",
+					"games.gamesgamesgamesgames.game.theme#business",
+					"games.gamesgamesgamesgames.game.theme#comedy",
+					"games.gamesgamesgamesgames.game.theme#drama",
+					"games.gamesgamesgamesgames.game.theme#educational",
+					"games.gamesgamesgamesgames.game.theme#erotic",
+					"games.gamesgamesgamesgames.game.theme#fantasy",
+					"games.gamesgamesgamesgames.game.theme#historical",
+					"games.gamesgamesgamesgames.game.theme#horror",
+					"games.gamesgamesgamesgames.game.theme#kids",
+					"games.gamesgamesgamesgames.game.theme#mystery",
+					"games.gamesgamesgamesgames.game.theme#nonfiction",
+					"games.gamesgamesgamesgames.game.theme#openWorld",
+					"games.gamesgamesgamesgames.game.theme#party",
+					"games.gamesgamesgamesgames.game.theme#romance",
+					"games.gamesgamesgamesgames.game.theme#sandbox",
+					"games.gamesgamesgamesgames.game.theme#scifi",
+					"games.gamesgamesgamesgames.game.theme#stealth",
+					"games.gamesgamesgamesgames.game.theme#survival",
+					"games.gamesgamesgamesgames.game.theme#thriller",
+					"games.gamesgamesgamesgames.game.theme#warfare"
 				]
 			}
 		},
@@ -89,21 +89,21 @@
 			"items": {
 				"type": "string",
 				"knownValues": [
-					"house.birb.game.type#addon",
-					"house.birb.game.type#bundle",
-					"house.birb.game.type#dlc",
-					"house.birb.game.type#episode",
-					"house.birb.game.type#expandedGame",
-					"house.birb.game.type#expansion",
-					"house.birb.game.type#fork",
-					"house.birb.game.type#mainGame",
-					"house.birb.game.type#mod",
-					"house.birb.game.type#port",
-					"house.birb.game.type#remake",
-					"house.birb.game.type#remaster",
-					"house.birb.game.type#season",
-					"house.birb.game.type#standaloneExpansion",
-					"house.birb.game.type#update"
+					"games.gamesgamesgamesgames.game.type#addon",
+					"games.gamesgamesgamesgames.game.type#bundle",
+					"games.gamesgamesgamesgames.game.type#dlc",
+					"games.gamesgamesgamesgames.game.type#episode",
+					"games.gamesgamesgamesgames.game.type#expandedGame",
+					"games.gamesgamesgamesgames.game.type#expansion",
+					"games.gamesgamesgamesgames.game.type#fork",
+					"games.gamesgamesgamesgames.game.type#mainGame",
+					"games.gamesgamesgamesgames.game.type#mod",
+					"games.gamesgamesgamesgames.game.type#port",
+					"games.gamesgamesgamesgames.game.type#remake",
+					"games.gamesgamesgamesgames.game.type#remaster",
+					"games.gamesgamesgamesgames.game.type#season",
+					"games.gamesgamesgamesgames.game.type#standaloneExpansion",
+					"games.gamesgamesgamesgames.game.type#update"
 				]
 			}
 		}

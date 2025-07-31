@@ -1,6 +1,7 @@
 {
 	"lexicon": 1,
-	"id": "house.birb.game.mode",
+	"id": "games.gamesgamesgamesgames.game.mode",
+	"description": "",
 	"defs": {
 		"battleRoyale": {
 			"type": "token",
