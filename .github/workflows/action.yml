@@ -5,33 +5,9 @@ on:
   push:
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Enable Corepack
-        run: corepack enable
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: '.nvmrc'
-          cache: 'yarn'
-
-      - name: Install Packages
-        run: yarn install
-
-      - name: Lint
-        run: yarn lint
-
   release:
     runs-on: ubuntu-latest
     if: ${{ github.ref_name == 'main' || github.ref_name == 'next' }}
-    needs:
-      - lint
-
     permissions:
       contents: write
       issues: write
