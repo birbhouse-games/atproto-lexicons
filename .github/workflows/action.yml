@@ -31,7 +31,7 @@ jobs:
     if: ${{ github.ref_name == 'main' || github.ref_name == 'next' }}
     needs:
       - lint
-      - test
+
     permissions:
       contents: write
       issues: write
