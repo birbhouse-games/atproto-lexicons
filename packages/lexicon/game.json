@@ -1,5 +1,5 @@
 {
-	"id": "games.gamesgamesgamesgames.game.listing",
+	"id": "games.gamesgamesgamesgames.game",
 	"defs": {
 		"main": {
 			"type": "record",
@@ -13,27 +13,23 @@
 			"record": {
 				"type": "object",
 				"properties": {
-					"did": {
-						"type": "string",
-						"format": "did"
-					},
 					"name": {
 						"type": "string"
 					},
 					"modes": {
-						"type": "games.gamesgamesgamesgames.game.defs#mode"
+						"type": "games.gamesgamesgamesgames.defs#mode"
 					},
 					"genres": {
-						"type": "games.gamesgamesgamesgames.game.defs#genre"
+						"type": "games.gamesgamesgamesgames.defs#genre"
 					},
-					"playerPerspectives": {
-						"type": "games.gamesgamesgamesgames.game.defs#playerPerspectives"
+					"playerPerspective": {
+						"type": "games.gamesgamesgamesgames.defs#playerPerspective"
 					},
 					"summary": {
 						"type": "string"
 					},
-					"themes": {
-						"type": "games.gamesgamesgamesgames.game.defs#themes"
+					"theme": {
+						"type": "games.gamesgamesgamesgames.defs#theme"
 					},
 					"createdAt": {
 						"type": "string",
@@ -43,7 +39,7 @@
 						"type": "string",
 						"format": "at-uri"
 					},
-					"involvedOrganizations": {
+					"relatedOrganizations": {
 						"type": "array",
 						"minLength": 1,
 						"items": {
@@ -73,7 +69,7 @@
 						}
 					},
 					"type": {
-						"type": "games.gamesgamesgamesgames.game.defs#type"
+						"type": "games.gamesgamesgamesgames.defs#type"
 					}
 				}
 			}

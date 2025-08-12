@@ -1,12 +1,7 @@
 {
 	"lexicon": 1,
-	"id": "games.gamesgamesgamesgames.game.theme",
-	"definition": "Categories for common video game themes.",
+	"id": "games.gamesgamesgamesgames.theme",
 	"defs": {
-		"4x": {
-			"type": "token",
-			"description": "4X (Explore, Expand, Exploit, and Exterminate)"
-		},
 		"action": {
 			"type": "token",
 			"description": "Action"
@@ -90,6 +85,10 @@
 		"warfare": {
 			"type": "token",
 			"description": "Warfare"
+		},
+		"xxxx": {
+			"type": "token",
+			"description": "4X (Explore, Expand, Exploit, and Exterminate)"
 		}
 	}
 }

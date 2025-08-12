@@ -1,7 +1,6 @@
 {
 	"lexicon": 1,
-	"id": "games.gamesgamesgamesgames.game.playerPerspective",
-	"definition": "View points (also known as cameras) available to the player.",
+	"id": "games.gamesgamesgamesgames.playerPerspective",
 	"defs": {
 		"auditory": {
 			"type": "token",
