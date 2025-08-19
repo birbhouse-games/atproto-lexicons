@@ -13,11 +13,17 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
+    "baseUrl": ".",
     "moduleResolution": "bundler",
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": false,
     "outDir": "dist",
+    "paths": {
+      "multiformats/*": [
+        "node_modules/multiformats/types/src/*",
+      ],
+    },
 
     /* Linting */
     "strict": true,
@@ -32,5 +38,5 @@
   "exclude": [
     "packages/api/lib",
     "packages/server/lib",
-  ]
+  ],
 }
