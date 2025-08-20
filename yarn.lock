@@ -2045,6 +2045,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pentaract-lexicon@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "pentaract-lexicon@workspace:."
+  languageName: unknown
+  linkType: soft
+
 "picocolors@npm:^1.1.1":
   version: 1.1.1
   resolution: "picocolors@npm:1.1.1"
@@ -2352,12 +2358,6 @@ __metadata:
   checksum: 10c0/f428497fe119fe7c4e34f1020d45ba13e99b94c9aa36958d88823d932b155c9df3d84f53166f3ee913ff68ea6c7599a9ab34861d88562ad9d8420f64ca5dad4c
   languageName: node
   linkType: hard
-
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  languageName: unknown
-  linkType: soft
 
 "safe-buffer@npm:5.2.1, safe-buffer@npm:~5.2.0":
   version: 5.2.1
